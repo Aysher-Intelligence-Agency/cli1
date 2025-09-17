@@ -1,3 +1,4 @@
 -r base.txt
 -r base2.txt
-Django==3.2.14
+Django==3.2.24
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
